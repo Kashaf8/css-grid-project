@@ -1,0 +1,137 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    width: 80vw;
+    padding: 32px;
+    margin: 0 auto;
+   
+}
+a{
+    text-decoration: none;
+}
+.header{
+    margin-bottom:35px ;
+   
+}
+.h1{
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+.p1{
+    text-align: center;
+    color:black;
+    max-width: 570px;
+    margin: 0 auto;
+}
+.h2{
+    font-size: x-large;
+    font-family: "Dancing Script", cursive;
+    font-weight: 600;
+    color: white;
+    /* color: rgb(243, 7, 7); */
+    /* line-height: 1.5rem; */
+    /* margin-bottom: 0.3rem; */
+} 
+.h2:hover{
+    color: rgb(26, 21, 21);
+}
+.p2{
+    color: rgb(88, 77, 77);
+    /* font-size: 1rem; */
+}
+.main2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-rows: repeat(4,1fr); */
+    gap: 15px;
+   
+
+  
+   
+}
+.main:hover .card1image{
+transform: scale(1.1);
+transition-duration: 200ms;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid brown;
+    border-radius: 2px;
+    background-color:lightsalmon;
+    box-shadow: 4px 4px rgb(145, 42, 42);
+}
+.a1{
+    position: relative;
+    overflow: hidden;
+    height: 14rem;
+}
+.card1image{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.cardtitle{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:1rem ;
+}
+.authorimage .author-image{
+    width: 3.5rem;
+    height: 3.5rem;
+    overflow: hidden;
+    background-color: azure;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.authorinfo{
+    display: flex;
+    flex-direction:column ;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.s1{
+    
+    font-family: "Dancing Script", cursive; 
+    font-size: larger;
+    color:red;
+    background-color: white;
+  border: 2px solid red;
+   border-radius: 5px;
+    line-height: 1.3rem;
+    padding: 0.25rem 0.5rem;
+   
+    
+   
+}
+.s1:hover{
+    background-color: black;
+    color: red;
+}
+
